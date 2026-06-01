@@ -1,0 +1,46 @@
+{
+  "name": "accessibility-kit",
+  "version": "1.0.0",
+  "description": "ARIA patterns, linters, and accessibility checks for HTML and UI projects.",
+  "type": "module",
+  "bin": {
+    "a11y-kit": "dist/cli/index.js"
+  },
+  "files": [
+    "dist",
+    "docs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli/index.ts",
+    "check": "tsc --noEmit",
+    "test": "vitest run",
+    "lint:examples": "tsx src/cli/index.ts check examples --format table"
+  },
+  "keywords": [
+    "accessibility",
+    "a11y",
+    "aria",
+    "lint",
+    "typescript",
+    "html"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "fast-glob": "^3.3.2",
+    "htmlparser2": "^9.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2",
+    "vitest": "^2.0.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
