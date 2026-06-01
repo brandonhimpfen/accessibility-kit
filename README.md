@@ -1,5 +1,8 @@
 # Accessibility Kit
 
+[![Support Open Work](https://img.shields.io/badge/Support-Open%20Work-0A0A0A?style=flat&logo=github)](https://github.com/brandonhimpfen/support) 
+[![DOI](https://zenodo.org/badge/1256203204.svg)](https://doi.org/10.5281/zenodo.20492732)
+
 Accessibility Kit is a TypeScript tool for ARIA patterns, accessibility linting, and practical HTML checks.
 
 It is designed for developers, maintainers, documentation teams, and site owners who want a lightweight way to catch common accessibility issues before publishing.
